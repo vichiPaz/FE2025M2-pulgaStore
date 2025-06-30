@@ -1,0 +1,43 @@
+.main-form {
+  flex: 1;
+}
+
+.form-pulgaStore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-pulgaStore-form {
+  background-color: #141a01;
+  color: #fffcf7;
+  font-weight: 500;
+  border-color: #141a01;
+  height: 44px;
+  width: 350px;
+}
+
+.btn-pulgaStore-form:hover {
+  background-color: #f7b2f3;
+  color: #141a01;
+  width: 350px;
+  border: none;
+}
+
+.input-pulgaStore {
+  background-color: #fffcf7;
+  border-color: #141a01;
+}
+
+@media (min-width: 1024px) {
+  .btn-pulgaStore {
+    height: auto;
+  }
+}

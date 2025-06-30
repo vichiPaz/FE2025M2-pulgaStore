@@ -1,0 +1,150 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: #fffcf7;
+  color: #37381d;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 24;
+}
+
+.btn-icon {
+  font-size: 24px;
+  color: #fffcf7;
+}
+
+.hero-carousel img {
+  height: 450px;
+  width: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-pulgaStore {
+  border-radius: 8px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: x-large;
+  line-height: 120%;
+}
+
+.btn-pulgaStore {
+  background-color: #fffcf7;
+  color: #141a01;
+  border-color: #fffcf7;
+  height: 44px;
+  width: 48px;
+  border-radius: 30%;
+}
+
+.btn-pulgaStore:hover {
+  background-color: #f7b2f3;
+  color: #141a01;
+}
+
+.nav-pulgaStore {
+  background-color: #fffcf7;
+  color: #141a01;
+  font-size: xx-large;
+}
+
+.nav-pulgaStore a {
+  color: #141a01;
+}
+
+.nav-pulgaStore a:hover {
+  color: #db64d5;
+  text-decoration: underline;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.nav-pulgaStore-btn {
+  background-color: #fffcf7;
+}
+
+.spn-pulgaStore {
+  width: 16px;
+  text-align: center;
+  color: #fffcf7;
+  border-radius: 100%;
+  font-size: x-small;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.quienes-somos {
+  text-align: left;
+  padding-right: 5%;
+}
+
+.quienes-somos p,
+figcaption {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card {
+  height: 100%;
+  border: none;
+}
+
+.card-pulgaStore img:hover {
+}
+.card-pulgaStore:hover {
+  transform: scale(1.03);
+  transition: transform 0.4s ease-in-out;
+  background-color: #f7b2f3;
+  color: #141a01;
+}
+
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #141a01;
+  color: #fffcf7;
+  font-size: small;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: xx-large;
+  }
+
+  .hero {
+    gap: 48px;
+  }
+
+  .hero-carousel {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .hero-carousel img {
+    object-fit: cover;
+    object-position: center;
+  }
+}

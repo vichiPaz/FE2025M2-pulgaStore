@@ -1,0 +1,41 @@
+{
+  "data": [
+    ["Camila Rojas", "Bolso Ecológico", "Santiago", 29, "2025-05-12", 1],
+    ["Javiera López", "Cartera Vegana", "Valparaíso", 32, "2025-04-27", 2],
+    ["Francisca Pérez", "Mochila Reciclada", "Concepción", 25, "2025-05-03", 1],
+    ["Diego Herrera", "Banano Verde", "Temuco", 21, "2025-06-01", 3],
+    ["Daniela Muñoz", "Cartera Vegana", "La Serena", 34, "2025-06-10", 1],
+    ["Felipe Soto", "Mochila Reciclada", "Antofagasta", 30, "2025-06-15", 2],
+    ["Martina Díaz", "Bolso Ecológico", "Puerto Montt", 27, "2025-06-12", 1],
+    ["Ignacio González", "Banano Verde", "Rancagua", 26, "2025-05-30", 1],
+    ["Antonia Torres", "Cartera Vegana", "Talca", 28, "2025-04-18", 2],
+    ["Benjamín Morales", "Mochila Reciclada", "Iquique", 24, "2025-06-05", 2],
+    ["Fernanda Ramírez", "Banano Verde", "Copiapó", 31, "2025-06-06", 1],
+    ["Tomás Navarro", "Bolso Ecológico", "Chillán", 22, "2025-05-29", 1],
+    ["Josefina Fuentes", "Cartera Vegana", "Arica", 33, "2025-05-01", 2],
+    ["Cristóbal Vega", "Mochila Reciclada", "Ovalle", 35, "2025-05-07", 1],
+    ["Catalina Silva", "Banano Verde", "Punta Arenas", 27, "2025-06-11", 2],
+    ["Lucas Castillo", "Bolso Ecológico", "Curicó", 30, "2025-06-08", 3],
+    ["Isidora Reyes", "Cartera Vegana", "Los Ángeles", 28, "2025-05-14", 1],
+    ["Matías Correa", "Mochila Reciclada", "Melipilla", 26, "2025-06-03", 2],
+    ["Valentina Bravo", "Banano Verde", "Quillota", 29, "2025-06-01", 1],
+    [
+      "Sebastián Fuenzalida",
+      "Cartera Vegana",
+      "San Fernando",
+      34,
+      "2025-05-17",
+      2
+    ],
+    ["Paloma Cárdenas", "Mochila Reciclada", "Osorno", 23, "2025-06-02", 1],
+    ["Ricardo Núñez", "Bolso Ecológico", "Calama", 31, "2025-05-20", 2],
+    ["Agustina Carrasco", "Banano Verde", "Vallenar", 25, "2025-06-13", 1],
+    ["Nicolás Salas", "Cartera Vegana", "Castro", 32, "2025-05-09", 2],
+    ["Constanza Figueroa", "Mochila Reciclada", "Linares", 29, "2025-04-30", 1],
+    ["Pedro Medina", "Banano Verde", "San Antonio", 28, "2025-05-22", 1],
+    ["Emilia Ortiz", "Cartera Vegana", "Cauquenes", 33, "2025-06-09", 2],
+    ["Alejandro Paredes", "Bolso Ecológico", "Peñaflor", 26, "2025-06-07", 1],
+    ["Margarita Aravena", "Banano Verde", "Villarrica", 27, "2025-06-14", 1],
+    ["Gabriel Valenzuela", "Mochila Reciclada", "Coquimbo", 30, "2025-05-25", 3]
+  ]
+}

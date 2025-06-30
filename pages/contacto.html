@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulga Store</title>
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=deceased"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart"
+    />
+
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link rel="stylesheet" href="../assets/styles/styleContact.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/validaciones.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <nav class="navbar navbar-expand-lg nav-pulgaStore px-2 py-sm-2 py-lg-4">
+        <div class="container-fluid">
+          <a href="../index.html">PulgaStore</a>
+          <button
+            class="navbar-toggler nav-pulgaStore-btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Inicio</a
+              >
+              <a class="nav-link" href="#">Productos</a>
+              <a class="nav-link" href="./pedidos.html">Pedidos</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <button
+                type="button"
+                class="btn btn-pulgaStore position-relative shadow-sm mx-3"
+              >
+                <span class="material-symbols-outlined"> shopping_cart </span>
+                <span
+                  class="position-absolute top-0 start-100 bg-danger border border-light spn-pulgaStore"
+                >
+                  2
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+
+    <div id="liveAlertPlaceholder"></div>
+
+    <main class="main-form">
+      <section class="container my-5 px-4 form-pulgaStore">
+        <h1 class="container col-lg-6 col-md-6">Formulario de Contacto</h1>
+        <form
+          action=""
+          id="formulario-contacto"
+          class="container mt-3 col-lg-6 col-md-6"
+        >
+          <div class="my-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="name"
+              class="form-control input-pulgaStore"
+              id="nombre"
+              placeholder="Escribe tu nombre"
+            />
+            <div class="my-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control input-pulgaStore"
+                id="email"
+                placeholder="nombre@ejemplo.com"
+              />
+            </div>
+            <div class="my-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control input-pulgaStore"
+                id="mensaje"
+                rows="3"
+                placeholder="Déjanos un mensaje"
+              ></textarea>
+            </div>
+            <div class="btn-container">
+              <button
+                type="submit"
+                class="btn btn-primary my-3 btn-pulgaStore-form"
+              >
+                Enviar
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-3 text-center py-5">
+      <p class="mb-0">
+        &copy; 2025 Equipo PulgaStore. Todos los derechos reservados.
+      </p>
+      <p id="fechaActual"></p>
+    </footer>
+  </body>
+</html>
